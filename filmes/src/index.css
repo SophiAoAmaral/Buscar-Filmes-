@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@layer components{
+    .font-tittle {font-family: "Cherry Bomb One", system-ui;};
+    .font-family{font-family: "Poppins", sans-serif;}
+    .detalhe{position: relative;}
+    .detalhe::before{
+      content: '';
+      position: absolute;
+      background-color: blueviolet;
+      width: 75px;
+      height: 5px;
+      top: 68%;
+    }
+}
