@@ -20,7 +20,7 @@ function DetalhesFilme() {
     return <p>Carregando...</p>;
   }
   return (
-    <section className="mt-18 max-w-5xl m-auto p-6  h-[100%]">
+    <section className="mt-18 max-w-5xl m-auto p-6  h-[95vh]">
   
   <button 
     onClick={() => navigate(-1)} 
